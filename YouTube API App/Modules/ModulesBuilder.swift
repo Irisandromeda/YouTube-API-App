@@ -12,6 +12,7 @@ protocol ModulesBuilderProtocol {
 }
 
 class ModulesBuilder: ModulesBuilderProtocol {
+    
     static func createMainModule() -> UIViewController {
         let view = MainViewController()
         let presenter = MainPresenter(view: view)

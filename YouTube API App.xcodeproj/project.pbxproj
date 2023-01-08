@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F47DB07296A2F1500722567 /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47DB06296A2F1500722567 /* UIImageView + Extension.swift */; };
+		4F47DB09296A342700722567 /* UIStackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47DB08296A342700722567 /* UIStackView + Extension.swift */; };
+		4F6A0AC52969001200E39135 /* SectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6A0AC42969001200E39135 /* SectionList.swift */; };
+		4F6A0ACD296906F600E39135 /* GalleryPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6A0ACC296906F600E39135 /* GalleryPageViewController.swift */; };
+		4F6A0ACF2969089D00E39135 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6A0ACE2969089D00E39135 /* GalleryViewController.swift */; };
+		4F6A0AD22969140A00E39135 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6A0AD12969140A00E39135 /* GradientView.swift */; };
 		4F86F4A82967984600C3EA3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F86F4A72967984600C3EA3F /* AppDelegate.swift */; };
 		4F86F4B12967984700C3EA3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F86F4B02967984700C3EA3F /* Assets.xcassets */; };
 		4F86F4B42967984700C3EA3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F86F4B22967984700C3EA3F /* LaunchScreen.storyboard */; };
@@ -15,10 +21,19 @@
 		4F86F4C629679B3000C3EA3F /* ModulesBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F86F4C529679B3000C3EA3F /* ModulesBuilder.swift */; };
 		4F86F4CC29679D8A00C3EA3F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F86F4CB29679D8A00C3EA3F /* MainViewController.swift */; };
 		4F86F4CE29679EE100C3EA3F /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F86F4CD29679EE100C3EA3F /* MainPresenter.swift */; };
+		4FA19C552967A80D00EECA9F /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA19C542967A80D00EECA9F /* UILabel + Extension.swift */; };
+		4FA19C572967A93500EECA9F /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA19C562967A93500EECA9F /* UIFont + Extension.swift */; };
+		4FA19C592967B8C000EECA9F /* GaleryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA19C582967B8C000EECA9F /* GaleryModel.swift */; };
 		BD20CFD89515FE20990E8C9A /* Pods_YouTube_API_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DEAFA8478CBEEF0ABBAD6B /* Pods_YouTube_API_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F47DB06296A2F1500722567 /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
+		4F47DB08296A342700722567 /* UIStackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extension.swift"; sourceTree = "<group>"; };
+		4F6A0AC42969001200E39135 /* SectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionList.swift; sourceTree = "<group>"; };
+		4F6A0ACC296906F600E39135 /* GalleryPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryPageViewController.swift; sourceTree = "<group>"; };
+		4F6A0ACE2969089D00E39135 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		4F6A0AD12969140A00E39135 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		4F86F4A42967984600C3EA3F /* YouTube API App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YouTube API App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F86F4A72967984600C3EA3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F86F4B02967984700C3EA3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -29,6 +44,9 @@
 		4F86F4C529679B3000C3EA3F /* ModulesBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesBuilder.swift; sourceTree = "<group>"; };
 		4F86F4CB29679D8A00C3EA3F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4F86F4CD29679EE100C3EA3F /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		4FA19C542967A80D00EECA9F /* UILabel + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
+		4FA19C562967A93500EECA9F /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
+		4FA19C582967B8C000EECA9F /* GaleryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaleryModel.swift; sourceTree = "<group>"; };
 		9B42557F9C51CE1929267C75 /* Pods-YouTube API App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTube API App.release.xcconfig"; path = "Target Support Files/Pods-YouTube API App/Pods-YouTube API App.release.xcconfig"; sourceTree = "<group>"; };
 		B1DEAFA8478CBEEF0ABBAD6B /* Pods_YouTube_API_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouTube_API_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93A156CE924F4D34B8E3938 /* Pods-YouTube API App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTube API App.debug.xcconfig"; path = "Target Support Files/Pods-YouTube API App/Pods-YouTube API App.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,6 +64,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F6A0AC12968FDE000E39135 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4F6A0AD029690F4000E39135 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				4F6A0AD12969140A00E39135 /* GradientView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
 		4F86F49B2967984600C3EA3F = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +131,11 @@
 		4F86F4BD296798C100C3EA3F /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				4F6A0AD029690F4000E39135 /* Custom */,
+				4FA19C542967A80D00EECA9F /* UILabel + Extension.swift */,
+				4FA19C562967A93500EECA9F /* UIFont + Extension.swift */,
+				4F47DB06296A2F1500722567 /* UIImageView + Extension.swift */,
+				4F47DB08296A342700722567 /* UIStackView + Extension.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -140,6 +178,8 @@
 		4F86F4C829679D0600C3EA3F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4FA19C582967B8C000EECA9F /* GaleryModel.swift */,
+				4F6A0AC42969001200E39135 /* SectionList.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -147,7 +187,10 @@
 		4F86F4C929679D2700C3EA3F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4F6A0AC12968FDE000E39135 /* Cells */,
 				4F86F4CB29679D8A00C3EA3F /* MainViewController.swift */,
+				4F6A0ACC296906F600E39135 /* GalleryPageViewController.swift */,
+				4F6A0ACE2969089D00E39135 /* GalleryViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -293,8 +336,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F47DB07296A2F1500722567 /* UIImageView + Extension.swift in Sources */,
+				4FA19C572967A93500EECA9F /* UIFont + Extension.swift in Sources */,
+				4F47DB09296A342700722567 /* UIStackView + Extension.swift in Sources */,
+				4F6A0ACD296906F600E39135 /* GalleryPageViewController.swift in Sources */,
+				4F6A0AD22969140A00E39135 /* GradientView.swift in Sources */,
 				4F86F4CC29679D8A00C3EA3F /* MainViewController.swift in Sources */,
+				4FA19C592967B8C000EECA9F /* GaleryModel.swift in Sources */,
+				4FA19C552967A80D00EECA9F /* UILabel + Extension.swift in Sources */,
 				4F86F4A82967984600C3EA3F /* AppDelegate.swift in Sources */,
+				4F6A0AC52969001200E39135 /* SectionList.swift in Sources */,
+				4F6A0ACF2969089D00E39135 /* GalleryViewController.swift in Sources */,
 				4F86F4C629679B3000C3EA3F /* ModulesBuilder.swift in Sources */,
 				4F86F4CE29679EE100C3EA3F /* MainPresenter.swift in Sources */,
 			);

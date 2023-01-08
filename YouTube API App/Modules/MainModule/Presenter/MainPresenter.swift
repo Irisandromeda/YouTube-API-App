@@ -18,12 +18,14 @@ protocol MainViewProtocol: AnyObject {
 
 protocol MainPresenterProtocol: AnyObject {
     init(view: MainViewProtocol)
+    var data: Data? { get set }
 }
 
     //MARK: Presenter
 
 class MainPresenter: MainPresenterProtocol {
     weak var view: MainViewProtocol?
+    var data: Data?
     
     required init(view: MainViewProtocol) {
         self.view = view
