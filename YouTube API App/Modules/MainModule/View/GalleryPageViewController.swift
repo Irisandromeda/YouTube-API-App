@@ -16,8 +16,6 @@ class GalleryPageViewController: UIPageViewController {
         .green,
         .blue,
         .cyan,
-        .yellow,
-        .orange
     ]
     
     override init(transitionStyle style: UIPageViewController.TransitionStyle, navigationOrientation: UIPageViewController.NavigationOrientation, options: [UIPageViewController.OptionsKey : Any]? = nil) {
@@ -31,18 +29,23 @@ class GalleryPageViewController: UIPageViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        for color in 0..<colors.count {
+        for _ in 0..<colors.count {
             let viewController = GalleryViewController()
-            viewController.view.backgroundColor = colors[color]
-            viewController.channelName.text = "ViewController - \(color)"
-            viewController.countOfSubscribers.text = "\(color)"
             pages.append(viewController)
         }
+        
+        Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(scrollToNextItem), userInfo: nil, repeats: true)
 
         dataSource = self
         delegate = nil
         
         setViewControllers([pages[0]], direction: .forward, animated: true, completion: nil)
+        
+        view.layer.cornerRadius = 4
+    }
+    
+    @objc private func scrollToNextItem() {
+
     }
 
 }

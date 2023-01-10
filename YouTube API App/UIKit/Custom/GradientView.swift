@@ -58,9 +58,10 @@ class GradientView: UIView {
         }
     }
     
-    init(from: Point, to: Point, startColor: UIColor?, endColor: UIColor?) {
+    init(from: Point, to: Point, startColor: UIColor?, endColor: UIColor?, cornerRadius: CGFloat) {
         self.init()
         setupGradient(from: from, to: to, startColor: startColor, endColor: endColor)
+        gradientLayer.cornerRadius = cornerRadius
     }
     
     override init(frame: CGRect) {

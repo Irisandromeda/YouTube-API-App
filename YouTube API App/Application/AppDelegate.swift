@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = viewController
         window?.makeKeyAndVisible()
         
-        window?.backgroundColor = .red
+        window?.backgroundColor = .purple
         
         return true
     }

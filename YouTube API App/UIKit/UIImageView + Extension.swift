@@ -9,9 +9,12 @@ import UIKit
 
 extension UIImageView {
     
-    convenience init(contentMode: UIView.ContentMode) {
+    convenience init(imageName: String, contentMode: UIView.ContentMode) {
         self.init()
         
+        guard let image = UIImage(named: imageName) else { return }
+        
+        self.image = image
         self.contentMode = contentMode
     }
     
